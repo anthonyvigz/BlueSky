@@ -27,21 +27,23 @@
 .navbar {
     top: 0;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     width: 100%;
     z-index: 1;
-    height: 140px;
+    height: 100px;
     margin-left: 30px;
     font-family: 'Exo 2', sans-serif;
     flex: 0 1 auto;
+    background-color: rgba(255, 255, 255, 0.26);
 
   }
 
-.navbar img {
-  width: 185px;
-  min-width: 185px;
+.navbar h1 {
+    display: inline-flex;
+  color: blue;
+  margin-right: 30px;
 }
 
 /* fixed navbar */
@@ -63,13 +65,13 @@
   
 .nav {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   list-style: none;
-  margin-right: 15%;
   font-size: 1em;
-  width: 100%;
-  margin-top: -4px; 
+  color: blue;
+  padding: 0;
 }
+
 
 @media (max-width: 1000px) {
   .nav {
@@ -77,97 +79,10 @@
   }
 }
 
-.bannerText {
-  position: absolute;
-  left: 12%;
-  top: 25%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-h2 {
-  display: inline-block;
-  width: 1000px;
-  z-index: 7;
-  font-family: 'Exo', sans-serif;
-  letter-spacing: 4px;
-  font-weight: 300;
-  font-size: 6.7em;
-  color: rgb(255, 255, 255);
-  transition: 1s;
-  line-height: 110px;
-  margin: 0;
-}
-
-.bannerText button {
-    background-color: rgb(142, 86, 58);
-    font-family: 'Exo', sans-serif;
-    cursor: pointer;
-    width: 100%;
-    outline: none;
-    border: none;
-    letter-spacing: 2px;
-    font-size: 1.2em;
-    font-weight: 100;
-    color: rgba(255, 255, 255, 0.842);
-    width: 250px;
-    padding: 10px;
-    margin-top: 75px;
-    transition: 1s;
-}
-
-p {
-  display: inline-block;
-  width: 500px;
-  font-family: 'Exo', sans-serif;
-  letter-spacing: 2px;
-  font-weight: 100;
-  font-size: 1em;
-  color: white;
-  line-height: 30px;
-  margin-top: 30px;
-  transition: 1s;
-
-}
-
-@media (max-width: 1000px) {
-  .bannerText {
-    top: 22%;
-  }
-
-  .bannerText h2 {
-    font-size: 4em;
-    transition: 1s;
-    line-height: 60px;
-  }
-
-  .bannerText button {
-    margin-top: 15px;
-    width: 200px;
-    font-size: 1em;
-    transition: 1s;
-  }
-
-  .bannerText p {
-    font-size: 0.8em;
-    width: 400px;
-    transition: 1s;
-    margin-top: 15px;
-  }
-}
   
-  .logo {
-    flex: 1 1 auto;
-    margin-left: 10%;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 35px;
-  }
   
   a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 132, 255);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -182,7 +97,7 @@ p {
     left: 50%;
     content: '';
     height: 1px;
-    background: rgba(255, 255, 255, 0.664);
+    background: rgba(53, 231, 255, 0.664);
     transition: all 0.2s linear;
     width: 0;
     bottom: -3px;

@@ -50,3 +50,9 @@ git status
 git add all
 git add *
 git add -all
+git add --all
+git status
+git commit -m "added dependencies"
+git push origin master
+npm start
+git status
