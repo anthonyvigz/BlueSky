@@ -31,7 +31,7 @@ body {
 }
 
 
-.capa-area, .indi-area, .contact-area {
+.photos-area, .indi-area, .contact-area {
   position: relative;
   display: flex;
   justify-content: space-around;

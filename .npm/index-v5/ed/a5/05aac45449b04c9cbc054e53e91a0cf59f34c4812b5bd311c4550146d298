@@ -4,3 +4,6 @@ afb0903ae0124bc8e679cb533ffaa2a7e849dc73	{"key":"make-fetch-happen:request-cache
 7d4094487a0f0c7db6bcfec2c96c441bbf4308a9	{"key":"make-fetch-happen:request-cache:https://registry.yarnpkg.com/-/npm/v1/security/audits/quick","integrity":null,"time":1576602727725}
 f7ca419b5e9a1a52e9b77fff301c37fb0d27cf2d	{"key":"make-fetch-happen:request-cache:https://registry.yarnpkg.com/-/npm/v1/security/audits/quick","integrity":null,"time":1576603904792}
 496ced61f181319c7639eb242ffdd24daca488d6	{"key":"make-fetch-happen:request-cache:https://registry.yarnpkg.com/-/npm/v1/security/audits/quick","integrity":null,"time":1576605271587}
+45aad1a74a7e3df8635937370eba2bc36364dbbd	{"key":"make-fetch-happen:request-cache:https://registry.yarnpkg.com/-/npm/v1/security/audits/quick","integrity":null,"time":1576608886858}
+43909ca76ef5c9fa849715a61f01602ddc025f8c	{"key":"make-fetch-happen:request-cache:https://registry.yarnpkg.com/-/npm/v1/security/audits/quick","integrity":null,"time":1576612496942}
+de8611575a4d245aa4a7e2156e960dbb4a9972b2	{"key":"make-fetch-happen:request-cache:https://registry.yarnpkg.com/-/npm/v1/security/audits/quick","integrity":null,"time":1576616109934}

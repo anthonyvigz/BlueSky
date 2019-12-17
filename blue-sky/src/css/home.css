@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2:600,800&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
 .bannerBlock {
   position: absolute;
@@ -27,23 +27,39 @@
 .navbar {
     top: 0;
     display: flex;
+    padding-top: 10px;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     width: 100%;
     z-index: 1;
     height: 100px;
-    margin-left: 30px;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Rubik', sans-serif;
     flex: 0 1 auto;
-    background-color: rgba(255, 255, 255, 0.26);
-
+    background-color: rgba(54, 161, 237, 0.418);
+    transition: 1s;
   }
 
-.navbar h1 {
-    display: inline-flex;
-  color: blue;
-  margin-right: 30px;
+.movingNav {
+    top: 0;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    z-index: 1;
+    height: 600px;
+    font-family: 'Rubik', sans-serif;
+    flex: 0 1 auto;
+    background-color: red;
+    transition: 1s;
+}
+
+
+.navbar img {
+  width: 110px;
+  margin: 30px;
 }
 
 /* fixed navbar */
@@ -82,12 +98,11 @@
   
   
   a {
-    color: rgb(0, 132, 255);
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    text-transform: uppercase;
     letter-spacing: 2px;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     position: relative;
     display: inline-block;
   }
@@ -97,7 +112,7 @@
     left: 50%;
     content: '';
     height: 1px;
-    background: rgba(53, 231, 255, 0.664);
+    background: rgba(255, 255, 255, 0.801);
     transition: all 0.2s linear;
     width: 0;
     bottom: -3px;

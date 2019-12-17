@@ -56,3 +56,8 @@ git commit -m "added dependencies"
 git push origin master
 npm start
 git status
+git add --all
+git commit -m "setting up home page"
+git push origin master
+npm start
+git status
