@@ -61,3 +61,8 @@ git commit -m "setting up home page"
 git push origin master
 npm start
 git status
+git add --all
+git status
+git commit -m "set up scroll navbar"
+git push origin master
+npm start
