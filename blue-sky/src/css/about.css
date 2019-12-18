@@ -2,13 +2,11 @@
   position: relative;
   top: 0;
   margin-top: 0;
-  padding-top: 150px;
-  background: white;
+  padding-top: 100px;
   width: 100%;
   -webkit-background-size: cover;
   background-size: cover;
-  background:linear-gradient(
-      rgba(0, 102, 255, 0.6), rgba(6, 134, 6, 0.6)), url('../img/field.jpg');
+  background: rgba(54, 161, 237, 0.26);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

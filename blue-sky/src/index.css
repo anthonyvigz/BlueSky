@@ -5,6 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background-image: url('./img/agbg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0;
 }
 
 code {
@@ -19,16 +29,7 @@ body {
 }
 
 .homescreen {
-  position: relative;
-  background-image: url('./img/agbg.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  width: 100%;
-  height: 100vh;
-  -webkit-background-size: cover;
-  background-size: cover;
-  margin-bottom: 0;
+    height: 100vh;
 }
 
 
