@@ -17,11 +17,15 @@ class About extends Component {
             opacity3: 0,
             opacity4: 0,
             opacity5: 0,
-            opacity6: 0
+            opacity6: 0,
+            scrollHeight: '150px'
         }
     }
 
     componentDidMount() {
+
+        let bgColor = document.getElementsByClassName('about-area')[0];
+
         window.addEventListener('scroll', () => {
             if(window.scrollY < 500) {
                 this.setState({ ...this.state, 
@@ -33,23 +37,31 @@ class About extends Component {
                     opacity6: 0
                 })
                 console.log(window.scrollY);
-            } else if(window.scrollY < 875) {
+            } else if(window.scrollY < 875 && window.scrollY > 501) {
                 this.setState({ ...this.state, opacity1: 1})
+                this.setState({ ...this.state, scrollHeight: '350px'})
+                bgColor.style.backgroundColor = 'rgba(255, 255, 255, 0)'
                 console.log(window.scrollY);
             } else if(window.scrollY < 1000) {
                 this.setState({ ...this.state, opacity2: 1})
+                this.setState({ ...this.state, scrollHeight: '550px'})
+                bgColor.style.backgroundColor = 'rgba(255, 255, 255, 0.274)'
                 console.log(window.scrollY);
             } else if(window.scrollY < 1300) {
                 this.setState({ ...this.state, opacity3: 1})
+                this.setState({ ...this.state, scrollHeight: '750px'})
                 console.log(window.scrollY);
             } else if(window.scrollY < 1400) {
                 this.setState({ ...this.state, opacity4: 1})
+                this.setState({ ...this.state, scrollHeight: '950px'})
                 console.log(window.scrollY);
             } else if(window.scrollY < 1600) {
                 this.setState({ ...this.state, opacity5: 1})
+                this.setState({ ...this.state, scrollHeight: '1150px'})
                 console.log(window.scrollY);
             } else {
                 this.setState({ ...this.state, opacity6: 1})
+                this.setState({ ...this.state, scrollHeight: '1550px'})
                 console.log(window.scrollY);
             }
         })
@@ -60,6 +72,7 @@ class About extends Component {
     render() {
         return (
             <div className="about-area" id="about">
+                <div className="scrollDown" style={{height: this.state.scrollHeight}}></div>
                 <div className="aboutBlocks">
                     <div className="aboutBlock" style={{opacity: this.state.opacity1}}>
                         <div className="imgContainer">
