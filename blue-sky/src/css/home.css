@@ -50,10 +50,21 @@
     height: 100px;
 }
 
+.movingNav .nav {
+    -webkit-animation: appear 3s;
+  animation: appear 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
 
 .navbar img {
   width: 110px;
   margin: 30px;
+  -webkit-animation: appear 3s;
+  animation: appear 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .nav {
@@ -63,6 +74,16 @@
   font-size: 1em;
   color: blue;
   padding: 0;
+}
+
+@-webkit-keyframes appear {
+  0% { left: 500px; opacity: 0; }
+  100% { left: 0; opacity: 1; }  
+}
+
+@keyframes appear {
+  0% { left: 500px; opacity: 0; }
+  100% { left: 0; opacity: 1; }  
 }
 
 
@@ -116,6 +137,10 @@
       letter-spacing: 3px;
       color: rgba(215, 244, 255, 0.904);
       font-size: 1.6em;
+      -webkit-animation: appear 4s;
+    animation: appear 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
   }
 
   .header h2 {
@@ -123,10 +148,18 @@
       letter-spacing: 3px;
       color: rgba(1, 81, 146, 0.801);
       font-size: 2.3em;
+      -webkit-animation: appear 4s;
+    animation: appear 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
   }
 
   .header img {
     width: 250px;
     margin-bottom: 30px;
+    -webkit-animation: appear 3s;
+    animation: appear 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 
 }
