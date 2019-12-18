@@ -2,27 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
-.bannerBlock {
-  position: absolute;
-  background-color: rgba(81, 115, 155, 0.8);
-  z-index: 1;
-  width: 50%;
-  height: 100%;
-  -webkit-animation: appear 1s;
-  animation: appear 1s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-@-webkit-keyframes appear {
-  0% { left: 500px; opacity: 0; }
-  100% { left: 0; opacity: 1; }  
-}
-
-@keyframes appear {
-  0% { left: 500px; opacity: 0; }
-  100% { left: 0; opacity: 1; }  
-}
 
 .navbar {
     top: 0;
@@ -47,7 +26,8 @@
     top: 0; 
     width: 100%;
     z-index: 1;
-    height: 100px;
+    height: 60px;
+    transition: 1s;
 }
 
 .movingNav .nav {
@@ -59,7 +39,7 @@
 
 
 .navbar img {
-  width: 110px;
+  width: 75px;
   margin: 30px;
   -webkit-animation: appear 3s;
   animation: appear 3s;
@@ -91,6 +71,10 @@
   .nav {
     display: none;
   }
+}
+
+.movingNav a {
+    font-size: 0.8em;
 }
 
   
