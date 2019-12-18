@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from '../img/whitecloud.png'
-import logo2 from '../img/cloud4.png'
 
 class Home extends Component {
     constructor() {
