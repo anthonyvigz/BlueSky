@@ -39,7 +39,7 @@ class About extends Component {
             } else if(window.scrollY < 1000) {
                 this.setState({ ...this.state, opacity2: 1})
                 console.log(window.scrollY);
-            } else if(window.scrollY < 1200) {
+            } else if(window.scrollY < 1300) {
                 this.setState({ ...this.state, opacity3: 1})
                 console.log(window.scrollY);
             } else if(window.scrollY < 1400) {
@@ -77,12 +77,11 @@ class About extends Component {
                     </div>
                     <div className="aboutBlock" style={{opacity: this.state.opacity2}}>
                         <p>
-                            Blue Sky's mission is to provide high terpene, 
-                            full spectrum, bud-run extraction.  We believe 
-                            hydrocarbon extraction process handles cannabinoids 
-                            and terpenes gently, allowing the best transfer of 
-                            these properties to capture the essence of the full 
-                            plant.
+                            Our closed-loop hydrocarbon facility is seeking 
+                            national compliance with all processes related to 
+                            extraction for the medical cannabis market. 
+                            We offer terpene preservation, shatter, vape oils, 
+                            isolate (diamonds), terp sauce and RSO.
                         </p>
                         <div className="imgContainer">
                             <img src={about2} alt="about2" />
@@ -95,22 +94,18 @@ class About extends Component {
                             <h1>OUR VALUE</h1>
                         </div>
                         <p>
-                            Blue Sky's mission is to provide high terpene, 
-                            full spectrum, bud-run extraction.  We believe 
-                            hydrocarbon extraction process handles cannabinoids 
-                            and terpenes gently, allowing the best transfer of 
-                            these properties to capture the essence of the full 
-                            plant.
+                            We provide consistent quality extraction. We also seek to assist 
+                            growers build their brand.   Our collaborative services include 
+                            customized extraction orders, packaging and labeling of product. 
+                            We have a dedicated business team available to assist with 
+                            product questions and client service needs.
                         </p>
                     </div>
                     <div className="aboutBlock" style={{opacity: this.state.opacity4}}>
                         <p>
-                            Blue Sky's mission is to provide high terpene, 
-                            full spectrum, bud-run extraction.  We believe 
-                            hydrocarbon extraction process handles cannabinoids 
-                            and terpenes gently, allowing the best transfer of 
-                            these properties to capture the essence of the full 
-                            plant.
+                            Not sure of a first step with Blue Sky? Call us for a informal discussion. 
+                            Perhaps do a test run.  We price these test runs modestly to 
+                            demonstrate the quality and customization we provide growers.  
                         </p>
                         <div className="imgContainer">
                             <img src={about4} alt="about4" />
@@ -123,22 +118,18 @@ class About extends Component {
                             <h1>COMPLIANCE FOCUS</h1>
                         </div>
                         <p>
-                            Blue Sky's mission is to provide high terpene, 
-                            full spectrum, bud-run extraction.  We believe 
-                            hydrocarbon extraction process handles cannabinoids 
-                            and terpenes gently, allowing the best transfer of 
-                            these properties to capture the essence of the full 
-                            plant.
+                            We work in the medical cannabis space. 
+                            As the market prepares for adult-use, compliance will be 
+                            essential. We are completing final steps for national, 
+                            peer-review C1D1 certification to meet this requirement.
                         </p>
                     </div>
                     <div className="aboutBlock" style={{opacity: this.state.opacity6}}>
                         <p>
-                            Blue Sky's mission is to provide high terpene, 
-                            full spectrum, bud-run extraction.  We believe 
-                            hydrocarbon extraction process handles cannabinoids 
-                            and terpenes gently, allowing the best transfer of 
-                            these properties to capture the essence of the full 
-                            plant.
+                            We are local Maine farmers.  Our extraction focus is to provide 
+                            service to premier growers in the state. We believe that 
+                            building a strong brand requires collaboration and dialogue 
+                            with local growers.  
                         </p>
                         <div className="imgContainer">
                             <img src={about6} alt="about6" />
