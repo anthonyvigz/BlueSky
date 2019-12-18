@@ -22,9 +22,11 @@
 
 .aboutBlock {
     width: 100%;
-    background-color: green;
-    border: solid rgba(161, 0, 161, 0.562) 3px;
-    height: 300px;
+    border: solid grey 1px;
     display: flex;
     transition: 1.5s;
+}
+
+.aboutBlock img {
+    width: 388px;
 }

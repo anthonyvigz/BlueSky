@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/about.css';
+import about1 from '../img/about1.webp';
 
 class About extends Component {
     constructor() {
@@ -26,23 +27,23 @@ class About extends Component {
                     opacity6: 0
                 })
                 console.log(window.scrollY);
-            } else if(window.scrollY < 700) {
+            } else if(window.scrollY < 875) {
                 this.setState({ ...this.state, opacity1: 1})
                 console.log(window.scrollY);
-            } else if(window.scrollY < 1100) {
-                this.setState({ ...this.state, opacity1: 0.5, opacity2: 1})
+            } else if(window.scrollY < 1000) {
+                this.setState({ ...this.state, opacity2: 1})
                 console.log(window.scrollY);
-            } else if(window.scrollY < 1500) {
-                this.setState({ ...this.state, opacity1: 0, opacity2: 0.5, opacity3: 1})
+            } else if(window.scrollY < 1200) {
+                this.setState({ ...this.state, opacity3: 1})
                 console.log(window.scrollY);
-            } else if(window.scrollY < 1900) {
-                this.setState({ ...this.state, opacity2: 0, opacity3: 0.5, opacity4: 1})
+            } else if(window.scrollY < 1400) {
+                this.setState({ ...this.state, opacity4: 1})
                 console.log(window.scrollY);
-            } else if(window.scrollY < 2200) {
-                this.setState({ ...this.state, opacity3: 0, opacity4: 0.5, opacity5: 1})
+            } else if(window.scrollY < 1600) {
+                this.setState({ ...this.state, opacity5: 1})
                 console.log(window.scrollY);
             } else {
-                this.setState({ ...this.state, opacity4: 0, opacity5: 0.5, opacity6: 1})
+                this.setState({ ...this.state, opacity6: 1})
                 console.log(window.scrollY);
             }
         })
@@ -55,22 +56,70 @@ class About extends Component {
             <div className="about-area" id="about">
                 <div className="aboutBlocks">
                     <div className="aboutBlock" style={{opacity: this.state.opacity1}}>
-                        <h2>ABOUT 1</h2>
+                        <img src={about1} alt="about1" />
+                        <p>
+                            Blue Sky's mission is to provide high terpene, 
+                            full spectrum, bud-run extraction.  We believe 
+                            hydrocarbon extraction process handles cannabinoids 
+                            and terpenes gently, allowing the best transfer of 
+                            these properties to capture the essence of the full 
+                            plant.
+                        </p>
                     </div>
                     <div className="aboutBlock" style={{opacity: this.state.opacity2}}>
-                        <h2>ABOUT 2</h2>
+                        <p>
+                            Blue Sky's mission is to provide high terpene, 
+                            full spectrum, bud-run extraction.  We believe 
+                            hydrocarbon extraction process handles cannabinoids 
+                            and terpenes gently, allowing the best transfer of 
+                            these properties to capture the essence of the full 
+                            plant.
+                        </p>
+                        <img src={about1} alt="about1" />
                     </div>
                     <div className="aboutBlock" style={{opacity: this.state.opacity3}}>
-                        <h2>ABOUT 3</h2>
+                        <img src={about1} alt="about1" />
+                        <p>
+                            Blue Sky's mission is to provide high terpene, 
+                            full spectrum, bud-run extraction.  We believe 
+                            hydrocarbon extraction process handles cannabinoids 
+                            and terpenes gently, allowing the best transfer of 
+                            these properties to capture the essence of the full 
+                            plant.
+                        </p>
                     </div>
                     <div className="aboutBlock" style={{opacity: this.state.opacity4}}>
-                        <h2>ABOUT 4</h2>
+                        <p>
+                            Blue Sky's mission is to provide high terpene, 
+                            full spectrum, bud-run extraction.  We believe 
+                            hydrocarbon extraction process handles cannabinoids 
+                            and terpenes gently, allowing the best transfer of 
+                            these properties to capture the essence of the full 
+                            plant.
+                        </p>
+                        <img src={about1} alt="about1" />
                     </div>
                     <div className="aboutBlock" style={{opacity: this.state.opacity5}}>
-                        <h2>ABOUT 5</h2>
+                        <img src={about1} alt="about1" />
+                        <p>
+                            Blue Sky's mission is to provide high terpene, 
+                            full spectrum, bud-run extraction.  We believe 
+                            hydrocarbon extraction process handles cannabinoids 
+                            and terpenes gently, allowing the best transfer of 
+                            these properties to capture the essence of the full 
+                            plant.
+                        </p>
                     </div>
                     <div className="aboutBlock" style={{opacity: this.state.opacity6}}>
-                        <h2>ABOUT 6</h2>
+                        <p>
+                            Blue Sky's mission is to provide high terpene, 
+                            full spectrum, bud-run extraction.  We believe 
+                            hydrocarbon extraction process handles cannabinoids 
+                            and terpenes gently, allowing the best transfer of 
+                            these properties to capture the essence of the full 
+                            plant.
+                        </p>
+                        <img src={about1} alt="about1" />
                     </div>
                 </div>
             </div>
