@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "dependencies": {
+    "types-registry": "^0.1.469"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.16"
+  }
+}
