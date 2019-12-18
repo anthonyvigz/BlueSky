@@ -2,10 +2,72 @@
   position: relative;
   top: 0;
   margin-top: 0;
-  background: blue;
+  padding-top: 150px;
+  background: white;
   width: 100%;
-  height: 100vh;
-  background-repeat: repeat;
   -webkit-background-size: cover;
   background-size: cover;
+  background:linear-gradient(
+      rgba(0, 102, 255, 0.6), rgba(6, 134, 6, 0.6)), url('../img/field.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin-bottom: 0;
 }
+
+.aboutBlocks {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.aboutBlock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1.5s;
+    border-radius: 5px;
+    background-color: rgba(0, 119, 255, 0.671);
+    margin-bottom: 75px;
+}
+
+.aboutBlock img {
+    width: 388px;
+    opacity: 0.9;
+    display: block;
+}
+
+.imgContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.imgContainer h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color: rgba(0, 119, 255, 0.733);
+  padding: 5px;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 1500;
+  letter-spacing: 2px;
+}
+
+.aboutBlock p {
+    padding: 0 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.884);
+    font-size: 1.2em;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+

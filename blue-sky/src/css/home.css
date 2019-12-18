@@ -36,49 +36,37 @@
     height: 100px;
     font-family: 'Rubik', sans-serif;
     flex: 0 1 auto;
-    background-color: rgba(54, 161, 237, 0.418);
+    background-color: none;
     transition: 1s;
   }
 
 .movingNav {
-    top: 0;
-    display: flex;
-    padding-top: 10px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    overflow: hidden;
+    background-color: rgba(54, 161, 237, 0.897);
+    position: fixed; 
+    top: 0; 
     width: 100%;
     z-index: 1;
-    height: 600px;
-    font-family: 'Rubik', sans-serif;
-    flex: 0 1 auto;
-    background-color: red;
-    transition: 1s;
+    height: 100px;
+}
+
+.movingNav .nav {
+    -webkit-animation: appear 3s;
+  animation: appear 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 
 .navbar img {
   width: 110px;
   margin: 30px;
+  -webkit-animation: appear 3s;
+  animation: appear 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
-/* fixed navbar */
-  /* .navbar {
-    position: fixed;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #d4d7de;
-    width: 100%;
-    z-index: 1;
-    height: 70px;
-    border: solid red 2px;
-    margin-top: 0;
-  } */
-  
 .nav {
   display: flex;
   justify-content: center;
@@ -86,6 +74,16 @@
   font-size: 1em;
   color: blue;
   padding: 0;
+}
+
+@-webkit-keyframes appear {
+  0% { left: 500px; opacity: 0; }
+  100% { left: 0; opacity: 1; }  
+}
+
+@keyframes appear {
+  0% { left: 500px; opacity: 0; }
+  100% { left: 0; opacity: 1; }  
 }
 
 
@@ -123,3 +121,45 @@
     left: 0px;
   }
   
+
+  .header {
+      display: flex;
+      margin: 25px auto;
+      width: 700px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: 'Rubik', sans-serif;
+  }
+
+  .header h1 {
+      margin: 0;
+      letter-spacing: 3px;
+      color: rgba(215, 244, 255, 0.904);
+      font-size: 1.6em;
+      -webkit-animation: appear 4s;
+    animation: appear 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .header h2 {
+      margin: 0;
+      letter-spacing: 3px;
+      color: rgba(1, 81, 146, 0.801);
+      font-size: 2.3em;
+      -webkit-animation: appear 4s;
+    animation: appear 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .header img {
+    width: 250px;
+    margin-bottom: 30px;
+    -webkit-animation: appear 3s;
+    animation: appear 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+}
