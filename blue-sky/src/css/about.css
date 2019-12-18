@@ -29,4 +29,25 @@
 
 .aboutBlock img {
     width: 388px;
+    opacity: 0.7;
+}
+
+.imgContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.imgContainer h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color: rgba(0, 119, 255, 0.733);
+  padding: 5px;
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 1500;
+  letter-spacing: 2px;
 }
