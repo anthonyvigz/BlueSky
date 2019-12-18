@@ -66,3 +66,32 @@ git status
 git commit -m "set up scroll navbar"
 git push origin master
 npm start
+git add --all
+git commit -m "added background"
+git push origin master"
+XZgit push origin
+git push origin master
+git push origin master
+git status
+ls
+cd ..
+ls
+ls 
+cd ..
+ls
+cd anthonyvigz
+ls
+cd usr
+ls
+cd ..
+ls
+cd home
+ls
+cd anthonyvigz/
+ls
+git rm -r --cached
+git rm -f --cached
+git status
+git rm -r .cache
+git status
+git add .
