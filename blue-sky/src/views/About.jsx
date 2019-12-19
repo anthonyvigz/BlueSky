@@ -58,10 +58,12 @@ class About extends Component {
             } else if(window.scrollY < 1600) {
                 this.setState({ ...this.state, opacity5: 1})
                 this.setState({ ...this.state, scrollHeight: '1150px'})
+                bgColor.style.backgroundColor = 'rgba(255, 255, 255, 0.274)'
                 console.log(window.scrollY);
             } else {
                 this.setState({ ...this.state, opacity6: 1})
                 this.setState({ ...this.state, scrollHeight: '1550px'})
+                bgColor.style.backgroundColor = 'rgba(255, 255, 255, 0)'
                 console.log(window.scrollY);
             }
         })

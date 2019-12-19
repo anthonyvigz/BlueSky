@@ -1,0 +1,13 @@
+.imgBlock {
+    margin: 0;
+    padding: 0;
+}
+
+.imgBigContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
