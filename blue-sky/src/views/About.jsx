@@ -37,7 +37,7 @@ class About extends Component {
                     opacity6: 0
                 })
                 console.log(window.scrollY);
-            } else if(window.scrollY < 875 && window.scrollY > 501) {
+            } else if(window.scrollY < 879 && window.scrollY > 501) {
                 this.setState({ ...this.state, opacity1: 1})
                 this.setState({ ...this.state, scrollHeight: '350px'})
                 bgColor.style.backgroundColor = 'rgba(255, 255, 255, 0)'
