@@ -5,15 +5,15 @@ import '../css/contact.css';
 function Contact() {
     return (
         <div className="contact-area" id="contact">
-            <h1>Contact</h1>
+            <h1 className="contactTitle">Contact</h1>
             <div className="contactBlock">
                 <form className="contactForm">
                     <h2>Send us a message:</h2>
                     <input type="text" placeholder="Name (First, Last)*" />
                     <input type="text" placeholder="Email*" />
-                    <input type="number" placehoolder="Phone" />
+                    <input type="text" placeholder="Phone" />
                     <textarea type="text" placeholder="How can we help you?" />
-                    <button type="submit">Send</button>
+                    <button type="submit">SEND</button>
                 </form>
                 <div className="contactInfo">
                     <h1>Please reach out to us!</h1>

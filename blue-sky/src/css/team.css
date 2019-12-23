@@ -15,11 +15,9 @@
 }
 
 .teamBlock {
-    padding: 50px;
-    margin: 15px;
-    background-color: rgba(0, 119, 255, 0.555);
+    padding: 25px;
+    margin: 15px 0;
     border-radius: 5px;
-    height: 80%;
 }
 
 .teamBlock img {
@@ -32,6 +30,7 @@
 
 .teamPage h1 {
     margin: 0;
+    margin-bottom: -25px;
     letter-spacing: 3px;
     color: rgba(215, 244, 255, 0.904);
     font-size: 2.8em;
@@ -41,6 +40,7 @@
 .teamBlock h3 {
     background-color: rgba(0, 119, 255, 0.733);
     padding: 5px;
+    padding-top: 15px;
     margin: 0;
     font-family: 'Rubik', sans-serif;
     font-weight: 1500;
@@ -50,9 +50,15 @@
 }
 
 .teamBlock p {
+    padding: 15px;
+    margin: 0;
     color: white;
     font-family: 'Rubik', sans-serif;
+    line-height: 18px;
+    font-size: 0.8em;
     font-weight: 1500;
     letter-spacing: 2px;
     text-align: center;
+    background-color: rgba(0, 119, 255, 0.733);
+    width: 270px;
 }

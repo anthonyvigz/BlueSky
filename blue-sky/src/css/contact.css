@@ -1,0 +1,110 @@
+.contact-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+.contactTitle {
+    margin: 0;
+    margin-top: -100px;
+    letter-spacing: 3px;
+    color: rgba(0, 119, 255, 0.733);
+    font-size: 2.8em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contactBlock {
+    margin-top: -250px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactForm {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactForm h2 {
+    margin: 25px 0;
+    letter-spacing: 3px;
+    color: rgba(0, 119, 255, 0.733);
+    font-size: 1.6em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contactForm input {
+    width: 80%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.192);
+    border-bottom: solid 3px rgba(128, 128, 128, 0.623);
+    padding: 15px;
+    transition: 1s;
+    color: rgba(0, 119, 255, 0.733);
+    margin-bottom: 25px;
+}
+
+.contactForm input::placeholder {
+    color: rgba(0, 119, 255, 0.733);
+    font-size: 1em;
+    font-family: 'Rubik', sans-serif;
+    transition: 1s;
+}
+
+.contactForm textarea {
+    width: 80%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.192);
+    border-bottom: solid 3px rgba(128, 128, 128, 0.623);
+    padding: 15px;
+    transition: 1s;
+    color: rgba(0, 119, 255, 0.733);
+}
+
+.contactForm textarea::placeholder {
+    color: rgba(0, 119, 255, 0.733);
+    font-size: 1em;
+    font-family: 'Rubik', sans-serif;
+    transition: 1s;
+}
+
+textarea:focus, input:focus {
+    color: rgba(0, 119, 255, 0.733);
+    font-size: 1.2em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contactForm button {
+    background-color: rgba(0, 119, 255, 0.733);
+    border-radius: 50px;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 3px;
+    border: none;
+    width: 80%;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.contactInfo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactInfo h1 {
+    color: rgba(0, 119, 255, 0.733);
+    font-size: 1.4em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contactInfo p {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-family: 'Rubik', sans-serif;
+}

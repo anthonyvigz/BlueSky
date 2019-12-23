@@ -15,6 +15,9 @@ function App() {
         <Photos />
         <Team />
         <Contact />
+        <div className="footer">
+           <h4>Copyright © 2020 Blue Sky Lab, LLC - All Rights Reserved.</h4>
+        </div>
     </div>
   );
 }
