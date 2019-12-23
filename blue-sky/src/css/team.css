@@ -15,23 +15,50 @@
 }
 
 .teamBlock {
-    padding: 0;
-    margin: 0;
-    background-color: rgba(255, 255, 255, 0.705);
+    padding: 25px;
+    margin: 15px 0;
+    border-radius: 5px;
 }
 
 .teamBlock img {
     display: block;
     margin: 0;
     padding: 0;
-    width: 350px;
+    width: 300px;
     opacity: 0.9;
 }
 
-.teamBlock h3 {
+.teamPage h1 {
+    margin: 0;
+    margin-bottom: -25px;
+    letter-spacing: 3px;
+    color: rgba(215, 244, 255, 0.904);
+    font-size: 2.8em;
+    font-family: 'Rubik', sans-serif;
+}
 
+.teamBlock h3 {
+    background-color: rgba(0, 119, 255, 0.733);
+    padding: 5px;
+    padding-top: 15px;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 1500;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
 }
 
 .teamBlock p {
-    
+    padding: 15px;
+    margin: 0;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    line-height: 18px;
+    font-size: 0.8em;
+    font-weight: 1500;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgba(0, 119, 255, 0.733);
+    width: 270px;
 }
